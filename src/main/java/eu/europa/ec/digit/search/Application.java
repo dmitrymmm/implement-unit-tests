@@ -77,6 +77,7 @@ public class Application implements CommandLineRunner {
 
 	}
 
+	// TODO: Improve
 	public String generatePassword(String username) {
 
 		String text = username.toLowerCase();
